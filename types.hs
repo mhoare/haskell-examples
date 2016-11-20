@@ -6,3 +6,7 @@
 add :: Int -> Int -> Int
 add x y =
 	x + y
+
+sumToString :: Int -> Int -> String
+sumToString x y =
+	show ( x + y )
